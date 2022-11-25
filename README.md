@@ -1,4 +1,4 @@
-# social_function_structure_change
+# Functional and microstructural plasticity following social and interoceptive mental training
 
 Hello, please find here the code and some meta-analytical maps used for the study currently in biorxiv: 
 https://www.biorxiv.org/content/10.1101/2020.11.11.377895v4
