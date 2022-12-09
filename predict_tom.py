@@ -71,14 +71,14 @@ for foldname in foldname:
     x_train[i], x_test[i], y_train[i], y_test[i] = train_test_split(        
           df_data[X_cols], df_data.iloc[:, 1], test_size=0.3, random_state=i)
 	
-    x_conf = x_train[i].iloc[:,[2,3]]
-    y_conf = x_train[i].iloc[:,4:39]
+    x_conf = x_train[i].iloc[:,[1,2]]
+    y_conf = x_train[i].iloc[:,3:38]
     x, y   = np.array(x_conf), np.array(y_conf)
     model_conf = LinearRegression().fit(x, y)
     y_pred = model_conf.predict(x)
     x_correct[i] = y  - y_pred
-    x_conf = x_test[i].iloc[:,[2,3]]
-    y_conf = x_test[i].iloc[:,4:39]
+    x_conf = x_test[i].iloc[:,[1,2]]
+    y_conf = x_test[i].iloc[:,3:38]
     x, y   = np.array(x_conf), np.array(y_conf)
     model_conf = LinearRegression().fit(x, y)
     y_pred = model_conf.predict(x)
