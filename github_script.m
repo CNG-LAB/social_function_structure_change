@@ -3175,7 +3175,7 @@ for f3 = 1
                 for gradient_diff = 1
                     cd('/Users/sofievalk/brainstat_data/surface_data/tpl-fsaverage/fsaverage5/surf/')
                     SPHERE_L      = SurfStatReadSurf({'lh.sphere'});
-                    SPHERE_R      = SurfStatReadSurf({'lh.sphere'});
+                    SPHERE_R      = SurfStatReadSurf({'rh.sphere'});
                     
                     gradient_mask = mean(ggg_400_last(keep,:))';
                     
@@ -3226,7 +3226,7 @@ for f3 = 1
                 for gradient_diff = 1
                     cd('/Users/sofievalk/brainstat_data/surface_data/tpl-fsaverage/fsaverage5/surf/')
                     SPHERE_L      = SurfStatReadSurf({'lh.sphere'});
-                    SPHERE_R      = SurfStatReadSurf({'lh.sphere'});
+                    SPHERE_R      = SurfStatReadSurf({'rh.sphere'});
                     
                     gradient_mask = mean(g1_400_last(keep,:))';
                     
@@ -3276,7 +3276,7 @@ for f3 = 1
                 for gradient_diff = 1
                     cd('/Users/sofievalk/brainstat_data/surface_data/tpl-fsaverage/fsaverage5/surf/')
                     SPHERE_L      = SurfStatReadSurf({'lh.sphere'});
-                    SPHERE_R      = SurfStatReadSurf({'lh.sphere'});
+                    SPHERE_R      = SurfStatReadSurf({'rh.sphere'});
                     
                     gradient_mask = mean(g2_400_last(keep,:))';
                     
@@ -3326,7 +3326,7 @@ for f3 = 1
                 for gradient_diff = 1
                     cd('/Users/sofievalk/brainstat_data/surface_data/tpl-fsaverage/fsaverage5/surf/')
                     SPHERE_L      = SurfStatReadSurf({'lh.sphere'});
-                    SPHERE_R      = SurfStatReadSurf({'lh.sphere'});
+                    SPHERE_R      = SurfStatReadSurf({'rh.sphere'});
                     
                     gradient_mask = mean(g3_400_last(keep,:))';
                     
@@ -3433,7 +3433,7 @@ for f3 = 1
                 for gradient_diff = 1
                     cd('/Users/sofievalk/brainstat_data/surface_data/tpl-fsaverage/fsaverage5/surf/')
                     SPHERE_L      = SurfStatReadSurf({'lh.sphere'});
-                    SPHERE_R      = SurfStatReadSurf({'lh.sphere'});
+                    SPHERE_R      = SurfStatReadSurf({'rh.sphere'});
                     
                     gradient_mask = mean(ggg_400_last(keep,:))';
                     
@@ -3483,7 +3483,7 @@ for f3 = 1
                 for gradient_diff = 1
                     cd('/Users/sofievalk/brainstat_data/surface_data/tpl-fsaverage/fsaverage5/surf/')
                     SPHERE_L      = SurfStatReadSurf({'lh.sphere'});
-                    SPHERE_R      = SurfStatReadSurf({'lh.sphere'});
+                    SPHERE_R      = SurfStatReadSurf({'rh.sphere'});
                     
                     gradient_mask = mean(g1_400_last(keep,:))';
                     
@@ -3533,7 +3533,7 @@ for f3 = 1
                 for gradient_diff = 1
                     cd('/Users/sofievalk/brainstat_data/surface_data/tpl-fsaverage/fsaverage5/surf/')
                     SPHERE_L      = SurfStatReadSurf({'lh.sphere'});
-                    SPHERE_R      = SurfStatReadSurf({'lh.sphere'});
+                    SPHERE_R      = SurfStatReadSurf({'rh.sphere'});
                     
                     gradient_mask = mean(g2_400_last(keep,:))';
                     
@@ -3583,7 +3583,7 @@ for f3 = 1
                 for gradient_diff = 1
                     cd('/Users/sofievalk/brainstat_data/surface_data/tpl-fsaverage/fsaverage5/surf/')
                     SPHERE_L      = SurfStatReadSurf({'lh.sphere'});
-                    SPHERE_R      = SurfStatReadSurf({'lh.sphere'});
+                    SPHERE_R      = SurfStatReadSurf({'rh.sphere'});
                     
                     gradient_mask = mean(g3_400_last(keep,:))';
                     
@@ -3686,7 +3686,7 @@ for f3 = 1
                 for gradient_diff = 1
                     cd('/Users/sofievalk/brainstat_data/surface_data/tpl-fsaverage/fsaverage5/surf/')
                     SPHERE_L      = SurfStatReadSurf({'lh.sphere'});
-                    SPHERE_R      = SurfStatReadSurf({'lh.sphere'});
+                    SPHERE_R      = SurfStatReadSurf({'rh.sphere'});
                     
                     gradient_mask = mean(ggg_400_last(keep,:))';
                     
@@ -3736,7 +3736,7 @@ for f3 = 1
                 for gradient_diff = 1
                     cd('/Users/sofievalk/brainstat_data/surface_data/tpl-fsaverage/fsaverage5/surf/')
                     SPHERE_L      = SurfStatReadSurf({'lh.sphere'});
-                    SPHERE_R      = SurfStatReadSurf({'lh.sphere'});
+                    SPHERE_R      = SurfStatReadSurf({'rh.sphere'});
                     
                     gradient_mask = mean(g1_400_last(keep,:))';
                     
@@ -3786,7 +3786,7 @@ for f3 = 1
                 for gradient_diff = 1
                     cd('/Users/sofievalk/brainstat_data/surface_data/tpl-fsaverage/fsaverage5/surf/')
                     SPHERE_L      = SurfStatReadSurf({'lh.sphere'});
-                    SPHERE_R      = SurfStatReadSurf({'lh.sphere'});
+                    SPHERE_R      = SurfStatReadSurf({'rh.sphere'});
                     
                     gradient_mask = mean(g2_400_last(keep,:))';
                     
@@ -3836,7 +3836,7 @@ for f3 = 1
                 for gradient_diff = 1
                     cd('/Users/sofievalk/brainstat_data/surface_data/tpl-fsaverage/fsaverage5/surf/')
                     SPHERE_L      = SurfStatReadSurf({'lh.sphere'});
-                    SPHERE_R      = SurfStatReadSurf({'lh.sphere'});
+                    SPHERE_R      = SurfStatReadSurf({'rh.sphere'});
                     
                     gradient_mask = mean(g3_400_last(keep,:))';
                     
